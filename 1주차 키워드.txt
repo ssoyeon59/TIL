@@ -1,0 +1,44 @@
+GITHUB
+1 버전 관리
+
+버전 관리란 업데이트를 해 나아가는 것 (언제 뭐가 어떻게 바뀌었는지 상태를 관리하는 것)
+각 version의 프로젝트상태 정보를 가지고 있으면 된다
+
+2. git 초기화 (initialize, init)
+
+3. add/staging
+
+4. Comment
+뭐가 바뀌었는지 프로젝트 상태를 저장 - 카메라처럼 그 부분만 보임
+삭제된 내용은 빨간 색
+추가된 내용은 초록 색
+
+5. comment 내역(history)
+
+6.push
+로컬 repo의 commit을 원격 repo commit들에 합치기 
+업로드!
+
+7.pull
+원격repo의 commit을 로컬 repo commit들에 합치기 
+다운로드
+// 에러가 나면 삭제하기 !
+//어떤 것이 잘 작동되지 않는지 에러노트 꼭 쓰기
+
+8.clone
+원격repo를 내 컴퓨터에 가져오기! repo를 복제하다!
+url 사용 github에서 code를 누르면 https에서 복사해와서 가져오면 된다
+
+9.tracking//branch tracking 
+원격 repo와 로컬 repo를 연결하는 것
+
+10. 원격 repo, 로컬repo
+git로 관리되는 프로젝트를 <repo>
+
+로컬repo: 내 컴퓨터에 저장 되는 것
+원격repo: github처럼 다른 곳에서 접속할 수 있는 공간에 저장 된 것
+
+11. pull - commit - push //팁 정도 100% 통하는 패턴은아님
+원격과 로컬에서 같은 파일을 수정하면 어떤 파일로 최종으로 할까? 라고 확인메시지를 줍니다. 
+출돌(conflict)
+
