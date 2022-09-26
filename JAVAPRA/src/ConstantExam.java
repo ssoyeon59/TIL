@@ -15,9 +15,13 @@ public class ConstantExam {
         final double PI = 3.14159;
         circleArea = 3 * 3 * PI;
 
-        final int OIL_PRICE = 1350;
+        final int OIL_PRICE = 1350; //바뀌지 않는 값을 선언함 
 
-        int totalPrice = 50 * OIL_PRICE;
+        int totalPrice = 50 * OIL_PRICE; // OIL_PRICE의 값은 변하지 않고 위의 변수 값만 바뀌면 밑의 모든 OIL_PRICE의 값이 바뀐다.
+
+        System.out.println(J); // 10
+        System.out.println(circleArea); // 28.27431
+        System.out.println(totalPrice); // 67500
 
 
     }
